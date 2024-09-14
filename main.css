@@ -137,6 +137,7 @@ a {
 
 .contact_section {
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .line {
@@ -184,4 +185,13 @@ a {
   gap: 10px;
   margin-bottom: 20px;
   text-transform: capitalize;
+}
+
+.about_me_content h2 {
+  margin-bottom: 20px;
+}
+.about_me_content p {
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-weight: 500;
 }
