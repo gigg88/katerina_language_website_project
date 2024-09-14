@@ -6,6 +6,8 @@
   
   :root {
     --main_cl_txt: #242635;
+    --telegram_cl: #0088cc;
+    --btn_cl_txt: #FFFFFF;
   }
   
   body {
@@ -104,6 +106,46 @@
   
   .header {
     padding-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .contact_telegram {
+    display: flex;
+    width: 100%; 
+    background-color: var(--telegram_cl);
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+
+    span {
+    
+    color: var(--btn_cl_txt);
+    font-size: 26px;
+    font-weight: 500;
+    width: 100%;
+
+    }
+
+    a {
+    
+    padding: 15px 10px 15px 10px;
+    
+    }
+
+    :hover {
+      cursor: pointer;
+      background-color: #006699;
+    
+    }
+
+    .styling {
+      font-size: 30px;
+      color: var(--btn_cl_txt);
+    }
+
+   }
+
+  .contact_section{
     margin-bottom: 50px;
   }
   
