@@ -165,9 +165,20 @@
   align-items: center;
   font-size: 30px;
   gap: 10px;
+
+  :hover {
+    
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+    opacity: 0.7;
+    
+  }
   
   .instacl {
     color: #E4405F;
+    
+    
   }
 
   .fbcl{
