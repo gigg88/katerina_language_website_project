@@ -8,6 +8,7 @@
   --main_cl_txt: #242635;
   --telegram_cl: #0088cc;
   --btn_cl_txt: #FFFFFF;
+  --viber_cl: #7C8792;
 }
 
 body {
@@ -136,4 +137,45 @@ a {
 
 .contact_section {
   margin-bottom: 50px;
+}
+
+.line {
+  height: 1px;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  gap: 10px;
+}
+.social_icons .instacl {
+  color: #E4405F;
+}
+.social_icons .fbcl {
+  color: var(--telegram_cl);
+}
+.social_icons .vibercl {
+  color: var(--viber_cl);
+}
+
+.madeby {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
 }
